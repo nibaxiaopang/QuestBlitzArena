@@ -6,5 +6,6 @@ target 'QuestBlitzArena' do
   use_frameworks!
 
   # Pods for QuestBlitzArena
-
+  pod 'Firebase/Messaging'
+  pod 'AppsFlyerFramework'
 end

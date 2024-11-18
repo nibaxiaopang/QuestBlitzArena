@@ -60,6 +60,13 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="B3Q-bT-1ce"/>
+                    <connections>
+                        <outlet property="bottomCos" destination="e5D-v7-vrJ" id="Y7w-ns-BUc"/>
+                        <outlet property="oxBackBtn" destination="eYS-5S-FK7" id="Jf4-eS-leY"/>
+                        <outlet property="oxIndicatorView" destination="y2X-bU-bNZ" id="mWr-bu-hMq"/>
+                        <outlet property="oxWebView" destination="voz-OT-TfK" id="gKk-FM-zve"/>
+                        <outlet property="topCos" destination="sIb-Oq-SoU" id="rVZ-cs-T0m"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Aye-Bd-aZi" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -527,13 +534,18 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </view>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="white" translatesAutoresizingMaskIntoConstraints="NO" id="PJa-2G-P5p">
+                                <rect key="frame" x="416" y="186.66666666666666" width="20" height="20"/>
+                            </activityIndicatorView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="hsR-HJ-xXo"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="PJa-2G-P5p" firstAttribute="centerY" secondItem="iPp-Kh-vwA" secondAttribute="centerY" id="I8L-0P-WrH"/>
                             <constraint firstItem="Lbc-hA-GLN" firstAttribute="leading" secondItem="iPp-Kh-vwA" secondAttribute="leading" id="KGf-Eh-lo4"/>
                             <constraint firstItem="qRn-Fc-TCU" firstAttribute="centerX" secondItem="iPp-Kh-vwA" secondAttribute="centerX" id="OOT-sv-Hx4"/>
                             <constraint firstItem="qRn-Fc-TCU" firstAttribute="top" secondItem="ASX-KC-y6q" secondAttribute="bottom" constant="14" id="OsA-2O-vrP"/>
+                            <constraint firstItem="PJa-2G-P5p" firstAttribute="centerX" secondItem="iPp-Kh-vwA" secondAttribute="centerX" id="Unv-Xt-K1a"/>
                             <constraint firstAttribute="trailing" secondItem="Lbc-hA-GLN" secondAttribute="trailing" id="aSB-CS-YPs"/>
                             <constraint firstAttribute="bottom" secondItem="Lbc-hA-GLN" secondAttribute="bottom" id="ecX-wE-Fw4"/>
                             <constraint firstItem="ASX-KC-y6q" firstAttribute="centerX" secondItem="iPp-Kh-vwA" secondAttribute="centerX" id="fIK-QU-xTP"/>
@@ -541,6 +553,10 @@
                             <constraint firstItem="Lbc-hA-GLN" firstAttribute="top" secondItem="iPp-Kh-vwA" secondAttribute="top" id="r8A-06-xav"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="oxKineAdsActivityView" destination="PJa-2G-P5p" id="WaV-VL-9kg"/>
+                        <outlet property="startView" destination="qRn-Fc-TCU" id="9VD-HN-L8l"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Gym-Cm-IeA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

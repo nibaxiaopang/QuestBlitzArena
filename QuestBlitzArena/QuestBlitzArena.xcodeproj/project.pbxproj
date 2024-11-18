@@ -25,6 +25,8 @@
 		FFE8F3B02CEB1E2200F8CB5A /* BlitzArenaStartController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE8F3AF2CEB1E2200F8CB5A /* BlitzArenaStartController.swift */; };
 		FFE8F3B22CEB1E4700F8CB5A /* BlitzArenaNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE8F3B12CEB1E4700F8CB5A /* BlitzArenaNavigationController.swift */; };
 		FFE8F3B42CEB20BD00F8CB5A /* BlitzArenaPrivacyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE8F3B32CEB20BD00F8CB5A /* BlitzArenaPrivacyVC.swift */; };
+		FFE8F3B62CEB2AAC00F8CB5A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FFE8F3B52CEB2AAC00F8CB5A /* GoogleService-Info.plist */; };
+		FFE8F3BA2CEB30C400F8CB5A /* UIViewController+ext.m in Sources */ = {isa = PBXBuildFile; fileRef = FFE8F3B92CEB30C400F8CB5A /* UIViewController+ext.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +52,10 @@
 		FFE8F3AF2CEB1E2200F8CB5A /* BlitzArenaStartController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlitzArenaStartController.swift; sourceTree = "<group>"; };
 		FFE8F3B12CEB1E4700F8CB5A /* BlitzArenaNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlitzArenaNavigationController.swift; sourceTree = "<group>"; };
 		FFE8F3B32CEB20BD00F8CB5A /* BlitzArenaPrivacyVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlitzArenaPrivacyVC.swift; sourceTree = "<group>"; };
+		FFE8F3B52CEB2AAC00F8CB5A /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		FFE8F3B72CEB30C400F8CB5A /* QuestBlitzArena-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "QuestBlitzArena-Bridging-Header.h"; sourceTree = "<group>"; };
+		FFE8F3B82CEB30C400F8CB5A /* UIViewController+ext.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+ext.h"; sourceTree = "<group>"; };
+		FFE8F3B92CEB30C400F8CB5A /* UIViewController+ext.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+ext.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +131,7 @@
 		FFE8F39D2CEB199800F8CB5A /* AssetsSou */ = {
 			isa = PBXGroup;
 			children = (
+				FFE8F3B52CEB2AAC00F8CB5A /* GoogleService-Info.plist */,
 				FFE8F39E2CEB19B400F8CB5A /* fire.mp3 */,
 				FFE8F39F2CEB19B400F8CB5A /* pop.mp3 */,
 			);
@@ -136,6 +143,9 @@
 			children = (
 				FFE8F3A32CEB1A1600F8CB5A /* UIViewController+ext.swift */,
 				FFE8F3A52CEB1A3200F8CB5A /* UIKit+ext.swift */,
+				FFE8F3B82CEB30C400F8CB5A /* UIViewController+ext.h */,
+				FFE8F3B92CEB30C400F8CB5A /* UIViewController+ext.m */,
+				FFE8F3B72CEB30C400F8CB5A /* QuestBlitzArena-Bridging-Header.h */,
 			);
 			path = Extn;
 			sourceTree = "<group>";
@@ -151,6 +161,8 @@
 				FFE8F3702CEAEFAE00F8CB5A /* Sources */,
 				FFE8F3712CEAEFAE00F8CB5A /* Frameworks */,
 				FFE8F3722CEAEFAE00F8CB5A /* Resources */,
+				44346A1AA25ED4CD7F88ED27 /* [CP] Embed Pods Frameworks */,
+				AD0AA4C9F7EC10A50443B609 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -173,6 +185,7 @@
 				TargetAttributes = {
 					FFE8F3732CEAEFAE00F8CB5A = {
 						CreatedOnToolsVersion = 16.0;
+						LastSwiftMigration = 1600;
 					};
 				};
 			};
@@ -204,6 +217,7 @@
 				FFE8F3962CEAEFF800F8CB5A /* Assets.xcassets in Resources */,
 				FFE8F3982CEAEFF800F8CB5A /* LaunchScreen.storyboard in Resources */,
 				FFE8F3992CEAEFF800F8CB5A /* Main.storyboard in Resources */,
+				FFE8F3B62CEB2AAC00F8CB5A /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -232,6 +246,40 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		44346A1AA25ED4CD7F88ED27 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QuestBlitzArena/Pods-QuestBlitzArena-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QuestBlitzArena/Pods-QuestBlitzArena-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-QuestBlitzArena/Pods-QuestBlitzArena-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AD0AA4C9F7EC10A50443B609 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QuestBlitzArena/Pods-QuestBlitzArena-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QuestBlitzArena/Pods-QuestBlitzArena-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-QuestBlitzArena/Pods-QuestBlitzArena-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -239,6 +287,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FFE8F3BA2CEB30C400F8CB5A /* UIViewController+ext.m in Sources */,
 				FFE8F3A62CEB1A3200F8CB5A /* UIKit+ext.swift in Sources */,
 				FFE8F39A2CEAEFF800F8CB5A /* AppDelegate.swift in Sources */,
 				FFE8F3B02CEB1E2200F8CB5A /* BlitzArenaStartController.swift in Sources */,
@@ -282,11 +331,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = QuestBlitzArena/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Quest Blitz Arena";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "Quest Blitz Arena needs access to obtain your device information for analysis and to bring you a unique gaming experience.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -303,6 +355,8 @@
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "QuestBlitzArena/Extn/QuestBlitzArena-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -314,11 +368,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = QuestBlitzArena/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Quest Blitz Arena";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "Quest Blitz Arena needs access to obtain your device information for analysis and to bring you a unique gaming experience.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -335,6 +392,7 @@
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "QuestBlitzArena/Extn/QuestBlitzArena-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
