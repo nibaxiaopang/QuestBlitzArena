@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3466AFCE580A1B64BEEB643B /* Pods_QuestBlitzArena.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD555DFDDED7AF1763D3C8B1 /* Pods_QuestBlitzArena.framework */; };
+		FF6ABD732CEB773900795D4C /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = FF6ABD712CEB773900795D4C /* Localizable.strings */; };
 		FFE8F3962CEAEFF800F8CB5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFE8F38D2CEAEFF800F8CB5A /* Assets.xcassets */; };
 		FFE8F3982CEAEFF800F8CB5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFE8F3902CEAEFF800F8CB5A /* LaunchScreen.storyboard */; };
 		FFE8F3992CEAEFF800F8CB5A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFE8F3922CEAEFF800F8CB5A /* Main.storyboard */; };
@@ -34,6 +35,13 @@
 		CD555DFDDED7AF1763D3C8B1 /* Pods_QuestBlitzArena.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QuestBlitzArena.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE21006569F8811E5C593162 /* Pods-QuestBlitzArena.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuestBlitzArena.release.xcconfig"; path = "Target Support Files/Pods-QuestBlitzArena/Pods-QuestBlitzArena.release.xcconfig"; sourceTree = "<group>"; };
 		FF6ABD702CEB757C00795D4C /* QuestBlitzArena.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = QuestBlitzArena.entitlements; sourceTree = "<group>"; };
+		FF6ABD722CEB773900795D4C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		FF6ABD742CEB774C00795D4C /* hi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hi; path = hi.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		FF6ABD752CEB774D00795D4C /* hi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hi; path = hi.lproj/Main.strings; sourceTree = "<group>"; };
+		FF6ABD762CEB774D00795D4C /* hi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hi; path = hi.lproj/Localizable.strings; sourceTree = "<group>"; };
+		FF6ABD772CEB775300795D4C /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		FF6ABD782CEB775300795D4C /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Main.strings"; sourceTree = "<group>"; };
+		FF6ABD792CEB775300795D4C /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		FFE8F3742CEAEFAE00F8CB5A /* QuestBlitzArena.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuestBlitzArena.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFE8F38C2CEAEFF800F8CB5A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FFE8F38D2CEAEFF800F8CB5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -126,6 +134,7 @@
 				FFE8F3AD2CEB1A8700F8CB5A /* BlitzArenaHistoryRecord.swift */,
 				FFE8F3A22CEB1A0C00F8CB5A /* Extn */,
 				FFE8F39D2CEB199800F8CB5A /* AssetsSou */,
+				FF6ABD712CEB773900795D4C /* Localizable.strings */,
 			);
 			path = QuestBlitzArena;
 			sourceTree = "<group>";
@@ -198,6 +207,8 @@
 			knownRegions = (
 				en,
 				Base,
+				hi,
+				"pt-BR",
 			);
 			mainGroup = FFE8F36B2CEAEFAE00F8CB5A;
 			productRefGroup = FFE8F3752CEAEFAE00F8CB5A /* Products */;
@@ -217,6 +228,7 @@
 				FFE8F3A02CEB19B400F8CB5A /* pop.mp3 in Resources */,
 				FFE8F3A12CEB19B400F8CB5A /* fire.mp3 in Resources */,
 				FFE8F3962CEAEFF800F8CB5A /* Assets.xcassets in Resources */,
+				FF6ABD732CEB773900795D4C /* Localizable.strings in Resources */,
 				FFE8F3982CEAEFF800F8CB5A /* LaunchScreen.storyboard in Resources */,
 				FFE8F3992CEAEFF800F8CB5A /* Main.storyboard in Resources */,
 				FFE8F3B62CEB2AAC00F8CB5A /* GoogleService-Info.plist in Resources */,
@@ -308,10 +320,22 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		FF6ABD712CEB773900795D4C /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF6ABD722CEB773900795D4C /* en */,
+				FF6ABD762CEB774D00795D4C /* hi */,
+				FF6ABD792CEB775300795D4C /* pt-BR */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 		FFE8F3902CEAEFF800F8CB5A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				FFE8F38F2CEAEFF800F8CB5A /* Base */,
+				FF6ABD742CEB774C00795D4C /* hi */,
+				FF6ABD772CEB775300795D4C /* pt-BR */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -320,6 +344,8 @@
 			isa = PBXVariantGroup;
 			children = (
 				FFE8F3912CEAEFF800F8CB5A /* Base */,
+				FF6ABD752CEB774D00795D4C /* hi */,
+				FF6ABD782CEB775300795D4C /* pt-BR */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -336,7 +362,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = QuestBlitzArena/QuestBlitzArena.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = QuestBlitzArena/Info.plist;
@@ -374,7 +400,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = QuestBlitzArena/QuestBlitzArena.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = QuestBlitzArena/Info.plist;
@@ -407,6 +433,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -470,6 +497,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";

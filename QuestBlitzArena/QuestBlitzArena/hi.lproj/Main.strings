@@ -1,0 +1,21 @@
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "2MJ-Nx-8ER"; */
+"2MJ-Nx-8ER.text" = "Label";
+
+/* Class = "UILabel"; text = "Bubble Shooter"; ObjectID = "JEO-pc-KEV"; */
+"JEO-pc-KEV.text" = "Bubble Shooter";
+
+/* Class = "UIButton"; normalTitle = "Start Quest Blitz Arena"; ObjectID = "hXX-PL-X7C"; */
+"hXX-PL-X7C.normalTitle" = "Start Quest Blitz Arena";
+
+/* Class = "UILabel"; text = "History"; ObjectID = "kRc-Zt-XZr"; */
+"kRc-Zt-XZr.text" = "History";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "qJP-m1-jfo"; */
+"qJP-m1-jfo.text" = "Label";
+
+/* Class = "UILabel"; text = "Chain Blast"; ObjectID = "wXJ-cO-hyN"; */
+"wXJ-cO-hyN.text" = "Chain Blast";
+
+/* Class = "UIButton"; normalTitle = "Shoot"; ObjectID = "yn6-NT-hyX"; */
+"yn6-NT-hyX.normalTitle" = "Shoot";
