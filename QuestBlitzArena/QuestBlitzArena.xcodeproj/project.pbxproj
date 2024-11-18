@@ -1,0 +1,486 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3466AFCE580A1B64BEEB643B /* Pods_QuestBlitzArena.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD555DFDDED7AF1763D3C8B1 /* Pods_QuestBlitzArena.framework */; };
+		FFE8F3962CEAEFF800F8CB5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFE8F38D2CEAEFF800F8CB5A /* Assets.xcassets */; };
+		FFE8F3982CEAEFF800F8CB5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFE8F3902CEAEFF800F8CB5A /* LaunchScreen.storyboard */; };
+		FFE8F3992CEAEFF800F8CB5A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFE8F3922CEAEFF800F8CB5A /* Main.storyboard */; };
+		FFE8F39A2CEAEFF800F8CB5A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE8F38C2CEAEFF800F8CB5A /* AppDelegate.swift */; };
+		FFE8F39B2CEAEFF800F8CB5A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE8F3932CEAEFF800F8CB5A /* SceneDelegate.swift */; };
+		FFE8F39C2CEAEFF800F8CB5A /* BlitzArenaHomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE8F3942CEAEFF800F8CB5A /* BlitzArenaHomeVC.swift */; };
+		FFE8F3A02CEB19B400F8CB5A /* pop.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FFE8F39F2CEB19B400F8CB5A /* pop.mp3 */; };
+		FFE8F3A12CEB19B400F8CB5A /* fire.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FFE8F39E2CEB19B400F8CB5A /* fire.mp3 */; };
+		FFE8F3A42CEB1A1600F8CB5A /* UIViewController+ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE8F3A32CEB1A1600F8CB5A /* UIViewController+ext.swift */; };
+		FFE8F3A62CEB1A3200F8CB5A /* UIKit+ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE8F3A52CEB1A3200F8CB5A /* UIKit+ext.swift */; };
+		FFE8F3A82CEB1A5200F8CB5A /* BlitzArenaBubbleShooterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE8F3A72CEB1A5200F8CB5A /* BlitzArenaBubbleShooterVC.swift */; };
+		FFE8F3AA2CEB1A6800F8CB5A /* BlitzArenaChainReactionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE8F3A92CEB1A6800F8CB5A /* BlitzArenaChainReactionVC.swift */; };
+		FFE8F3AC2CEB1A7900F8CB5A /* BlitzArenaQuizHistoryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE8F3AB2CEB1A7900F8CB5A /* BlitzArenaQuizHistoryVC.swift */; };
+		FFE8F3AE2CEB1A8700F8CB5A /* BlitzArenaHistoryRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE8F3AD2CEB1A8700F8CB5A /* BlitzArenaHistoryRecord.swift */; };
+		FFE8F3B02CEB1E2200F8CB5A /* BlitzArenaStartController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE8F3AF2CEB1E2200F8CB5A /* BlitzArenaStartController.swift */; };
+		FFE8F3B22CEB1E4700F8CB5A /* BlitzArenaNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE8F3B12CEB1E4700F8CB5A /* BlitzArenaNavigationController.swift */; };
+		FFE8F3B42CEB20BD00F8CB5A /* BlitzArenaPrivacyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE8F3B32CEB20BD00F8CB5A /* BlitzArenaPrivacyVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		561DCF33DAEB9F36F8A63614 /* Pods-QuestBlitzArena.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuestBlitzArena.debug.xcconfig"; path = "Target Support Files/Pods-QuestBlitzArena/Pods-QuestBlitzArena.debug.xcconfig"; sourceTree = "<group>"; };
+		CD555DFDDED7AF1763D3C8B1 /* Pods_QuestBlitzArena.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QuestBlitzArena.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE21006569F8811E5C593162 /* Pods-QuestBlitzArena.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuestBlitzArena.release.xcconfig"; path = "Target Support Files/Pods-QuestBlitzArena/Pods-QuestBlitzArena.release.xcconfig"; sourceTree = "<group>"; };
+		FFE8F3742CEAEFAE00F8CB5A /* QuestBlitzArena.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuestBlitzArena.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFE8F38C2CEAEFF800F8CB5A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FFE8F38D2CEAEFF800F8CB5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FFE8F38E2CEAEFF800F8CB5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFE8F38F2CEAEFF800F8CB5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FFE8F3912CEAEFF800F8CB5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FFE8F3932CEAEFF800F8CB5A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FFE8F3942CEAEFF800F8CB5A /* BlitzArenaHomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlitzArenaHomeVC.swift; sourceTree = "<group>"; };
+		FFE8F39E2CEB19B400F8CB5A /* fire.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = fire.mp3; sourceTree = "<group>"; };
+		FFE8F39F2CEB19B400F8CB5A /* pop.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = pop.mp3; sourceTree = "<group>"; };
+		FFE8F3A32CEB1A1600F8CB5A /* UIViewController+ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+ext.swift"; sourceTree = "<group>"; };
+		FFE8F3A52CEB1A3200F8CB5A /* UIKit+ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIKit+ext.swift"; sourceTree = "<group>"; };
+		FFE8F3A72CEB1A5200F8CB5A /* BlitzArenaBubbleShooterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlitzArenaBubbleShooterVC.swift; sourceTree = "<group>"; };
+		FFE8F3A92CEB1A6800F8CB5A /* BlitzArenaChainReactionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlitzArenaChainReactionVC.swift; sourceTree = "<group>"; };
+		FFE8F3AB2CEB1A7900F8CB5A /* BlitzArenaQuizHistoryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlitzArenaQuizHistoryVC.swift; sourceTree = "<group>"; };
+		FFE8F3AD2CEB1A8700F8CB5A /* BlitzArenaHistoryRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlitzArenaHistoryRecord.swift; sourceTree = "<group>"; };
+		FFE8F3AF2CEB1E2200F8CB5A /* BlitzArenaStartController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlitzArenaStartController.swift; sourceTree = "<group>"; };
+		FFE8F3B12CEB1E4700F8CB5A /* BlitzArenaNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlitzArenaNavigationController.swift; sourceTree = "<group>"; };
+		FFE8F3B32CEB20BD00F8CB5A /* BlitzArenaPrivacyVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlitzArenaPrivacyVC.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FFE8F3712CEAEFAE00F8CB5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3466AFCE580A1B64BEEB643B /* Pods_QuestBlitzArena.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2CE01D462D31D16240156ADD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CD555DFDDED7AF1763D3C8B1 /* Pods_QuestBlitzArena.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		697B46693FA14C8564ADC6C0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				561DCF33DAEB9F36F8A63614 /* Pods-QuestBlitzArena.debug.xcconfig */,
+				EE21006569F8811E5C593162 /* Pods-QuestBlitzArena.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FFE8F36B2CEAEFAE00F8CB5A = {
+			isa = PBXGroup;
+			children = (
+				FFE8F3952CEAEFF800F8CB5A /* QuestBlitzArena */,
+				FFE8F3752CEAEFAE00F8CB5A /* Products */,
+				697B46693FA14C8564ADC6C0 /* Pods */,
+				2CE01D462D31D16240156ADD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FFE8F3752CEAEFAE00F8CB5A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FFE8F3742CEAEFAE00F8CB5A /* QuestBlitzArena.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FFE8F3952CEAEFF800F8CB5A /* QuestBlitzArena */ = {
+			isa = PBXGroup;
+			children = (
+				FFE8F38C2CEAEFF800F8CB5A /* AppDelegate.swift */,
+				FFE8F3932CEAEFF800F8CB5A /* SceneDelegate.swift */,
+				FFE8F38D2CEAEFF800F8CB5A /* Assets.xcassets */,
+				FFE8F38E2CEAEFF800F8CB5A /* Info.plist */,
+				FFE8F3902CEAEFF800F8CB5A /* LaunchScreen.storyboard */,
+				FFE8F3922CEAEFF800F8CB5A /* Main.storyboard */,
+				FFE8F3AF2CEB1E2200F8CB5A /* BlitzArenaStartController.swift */,
+				FFE8F3B32CEB20BD00F8CB5A /* BlitzArenaPrivacyVC.swift */,
+				FFE8F3B12CEB1E4700F8CB5A /* BlitzArenaNavigationController.swift */,
+				FFE8F3942CEAEFF800F8CB5A /* BlitzArenaHomeVC.swift */,
+				FFE8F3A72CEB1A5200F8CB5A /* BlitzArenaBubbleShooterVC.swift */,
+				FFE8F3A92CEB1A6800F8CB5A /* BlitzArenaChainReactionVC.swift */,
+				FFE8F3AB2CEB1A7900F8CB5A /* BlitzArenaQuizHistoryVC.swift */,
+				FFE8F3AD2CEB1A8700F8CB5A /* BlitzArenaHistoryRecord.swift */,
+				FFE8F3A22CEB1A0C00F8CB5A /* Extn */,
+				FFE8F39D2CEB199800F8CB5A /* AssetsSou */,
+			);
+			path = QuestBlitzArena;
+			sourceTree = "<group>";
+		};
+		FFE8F39D2CEB199800F8CB5A /* AssetsSou */ = {
+			isa = PBXGroup;
+			children = (
+				FFE8F39E2CEB19B400F8CB5A /* fire.mp3 */,
+				FFE8F39F2CEB19B400F8CB5A /* pop.mp3 */,
+			);
+			path = AssetsSou;
+			sourceTree = "<group>";
+		};
+		FFE8F3A22CEB1A0C00F8CB5A /* Extn */ = {
+			isa = PBXGroup;
+			children = (
+				FFE8F3A32CEB1A1600F8CB5A /* UIViewController+ext.swift */,
+				FFE8F3A52CEB1A3200F8CB5A /* UIKit+ext.swift */,
+			);
+			path = Extn;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FFE8F3732CEAEFAE00F8CB5A /* QuestBlitzArena */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFE8F3872CEAEFAF00F8CB5A /* Build configuration list for PBXNativeTarget "QuestBlitzArena" */;
+			buildPhases = (
+				16E5936DE5F0435BC1B84C87 /* [CP] Check Pods Manifest.lock */,
+				FFE8F3702CEAEFAE00F8CB5A /* Sources */,
+				FFE8F3712CEAEFAE00F8CB5A /* Frameworks */,
+				FFE8F3722CEAEFAE00F8CB5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QuestBlitzArena;
+			productName = QuestBlitzArena;
+			productReference = FFE8F3742CEAEFAE00F8CB5A /* QuestBlitzArena.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FFE8F36C2CEAEFAE00F8CB5A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					FFE8F3732CEAEFAE00F8CB5A = {
+						CreatedOnToolsVersion = 16.0;
+					};
+				};
+			};
+			buildConfigurationList = FFE8F36F2CEAEFAE00F8CB5A /* Build configuration list for PBXProject "QuestBlitzArena" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FFE8F36B2CEAEFAE00F8CB5A;
+			productRefGroup = FFE8F3752CEAEFAE00F8CB5A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FFE8F3732CEAEFAE00F8CB5A /* QuestBlitzArena */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FFE8F3722CEAEFAE00F8CB5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFE8F3A02CEB19B400F8CB5A /* pop.mp3 in Resources */,
+				FFE8F3A12CEB19B400F8CB5A /* fire.mp3 in Resources */,
+				FFE8F3962CEAEFF800F8CB5A /* Assets.xcassets in Resources */,
+				FFE8F3982CEAEFF800F8CB5A /* LaunchScreen.storyboard in Resources */,
+				FFE8F3992CEAEFF800F8CB5A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		16E5936DE5F0435BC1B84C87 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QuestBlitzArena-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FFE8F3702CEAEFAE00F8CB5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFE8F3A62CEB1A3200F8CB5A /* UIKit+ext.swift in Sources */,
+				FFE8F39A2CEAEFF800F8CB5A /* AppDelegate.swift in Sources */,
+				FFE8F3B02CEB1E2200F8CB5A /* BlitzArenaStartController.swift in Sources */,
+				FFE8F3B22CEB1E4700F8CB5A /* BlitzArenaNavigationController.swift in Sources */,
+				FFE8F3AC2CEB1A7900F8CB5A /* BlitzArenaQuizHistoryVC.swift in Sources */,
+				FFE8F3AE2CEB1A8700F8CB5A /* BlitzArenaHistoryRecord.swift in Sources */,
+				FFE8F39B2CEAEFF800F8CB5A /* SceneDelegate.swift in Sources */,
+				FFE8F3A82CEB1A5200F8CB5A /* BlitzArenaBubbleShooterVC.swift in Sources */,
+				FFE8F3A42CEB1A1600F8CB5A /* UIViewController+ext.swift in Sources */,
+				FFE8F39C2CEAEFF800F8CB5A /* BlitzArenaHomeVC.swift in Sources */,
+				FFE8F3AA2CEB1A6800F8CB5A /* BlitzArenaChainReactionVC.swift in Sources */,
+				FFE8F3B42CEB20BD00F8CB5A /* BlitzArenaPrivacyVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FFE8F3902CEAEFF800F8CB5A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FFE8F38F2CEAEFF800F8CB5A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		FFE8F3922CEAEFF800F8CB5A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FFE8F3912CEAEFF800F8CB5A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FFE8F3882CEAEFAF00F8CB5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 561DCF33DAEB9F36F8A63614 /* Pods-QuestBlitzArena.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = QuestBlitzArena/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Quest Blitz Arena";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dra.QuestBlitzArena;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		FFE8F3892CEAEFAF00F8CB5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE21006569F8811E5C593162 /* Pods-QuestBlitzArena.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = QuestBlitzArena/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Quest Blitz Arena";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dra.QuestBlitzArena;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		FFE8F38A2CEAEFAF00F8CB5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FFE8F38B2CEAEFAF00F8CB5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FFE8F36F2CEAEFAE00F8CB5A /* Build configuration list for PBXProject "QuestBlitzArena" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFE8F38A2CEAEFAF00F8CB5A /* Debug */,
+				FFE8F38B2CEAEFAF00F8CB5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFE8F3872CEAEFAF00F8CB5A /* Build configuration list for PBXNativeTarget "QuestBlitzArena" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFE8F3882CEAEFAF00F8CB5A /* Debug */,
+				FFE8F3892CEAEFAF00F8CB5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FFE8F36C2CEAEFAE00F8CB5A /* Project object */;
+}
