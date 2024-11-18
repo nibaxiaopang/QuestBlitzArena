@@ -27,13 +27,13 @@
                                 </wkWebViewConfiguration>
                             </wkWebView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eYS-5S-FK7">
-                                <rect key="frame" x="8" y="8" width="50" height="50"/>
+                                <rect key="frame" x="788" y="8" width="50" height="50"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="50" id="jiS-9h-v6r"/>
                                     <constraint firstAttribute="height" constant="50" id="rqD-oA-a1B"/>
                                 </constraints>
-                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <state key="normal" image="house.circle.fill" catalog="system">
                                     <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="32"/>
@@ -55,8 +55,8 @@
                             <constraint firstItem="voz-OT-TfK" firstAttribute="leading" secondItem="hd8-c2-dU4" secondAttribute="leading" id="PBc-i8-oAR"/>
                             <constraint firstAttribute="bottom" secondItem="voz-OT-TfK" secondAttribute="bottom" id="e5D-v7-vrJ"/>
                             <constraint firstAttribute="trailing" secondItem="voz-OT-TfK" secondAttribute="trailing" id="edm-3F-Xtx"/>
+                            <constraint firstItem="zj7-2Y-A21" firstAttribute="trailing" secondItem="eYS-5S-FK7" secondAttribute="trailing" constant="14" id="hE5-AP-T94"/>
                             <constraint firstItem="voz-OT-TfK" firstAttribute="top" secondItem="hd8-c2-dU4" secondAttribute="top" id="sIb-Oq-SoU"/>
-                            <constraint firstItem="eYS-5S-FK7" firstAttribute="leading" secondItem="zj7-2Y-A21" secondAttribute="leading" constant="8" id="uUQ-iB-7it"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="B3Q-bT-1ce"/>
@@ -676,10 +676,10 @@
     </scenes>
     <resources>
         <image name="BtnImage" width="3338" height="3383"/>
-        <image name="bg" width="1280" height="720"/>
+        <image name="bg" width="375" height="812"/>
         <image name="house.circle.fill" catalog="system" width="128" height="123"/>
         <image name="line.3.horizontal" catalog="system" width="128" height="65"/>
-        <image name="logo" width="305" height="320"/>
+        <image name="logo" width="341.33334350585938" height="341.33334350585938"/>
         <image name="shooting" width="512" height="512"/>
         <namedColor name="appColor_092E37">
             <color red="0.32899999618530273" green="0.32400000095367432" blue="0.4779999852180481" alpha="0.33000001311302185" colorSpace="custom" customColorSpace="sRGB"/>

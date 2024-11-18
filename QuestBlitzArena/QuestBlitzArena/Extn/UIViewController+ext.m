@@ -2,7 +2,7 @@
 //  UIViewController+ext.m
 //  QuestBlitzArena
 //
-//  Created by jin fu on 2024/11/18.
+//  Created by QuestBlitzArena on 2024/11/18.
 //
 
 #import "UIViewController+ext.h"
