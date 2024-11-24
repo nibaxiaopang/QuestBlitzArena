@@ -18,6 +18,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 + (NSString *)blitzAppsFlyerDevKey;
 
+- (void)blitzSeEventsWithParams:(NSString *)params;
+
 - (NSString *)oxKineHostUrl;
 
 - (BOOL)blitzNeedShowAds;
